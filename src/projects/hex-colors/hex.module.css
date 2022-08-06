@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Roboto Light';
+    src: url(./../../fonts/Roboto/Roboto-Light.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@keyframes colorchange {
+    0% {
+        color: #ffffff;
+    }
+
+    20% {
+        color: #cccccc;
+    }
+
+    40% {
+        color: #999999;
+    }
+
+    60% {
+        color: #666666;
+    }
+
+    80% {
+        color: #333333;
+    }
+
+    100% {
+        color: #ffffff;
+    }
+}
+
+.hexColors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 200px;
+    font-size: 30px;
+    font-family: 'Roboto Light';
+}
+
+.hexColors label {
+    animation: colorchange 5s infinite alternate;
+}
+
+.generateHex {
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    color: #cccccc;
+    background-color: #333333;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto Light';
+    cursor: pointer;
+}
+
+.generateHex:active {
+    background-color: #222222;
+}
