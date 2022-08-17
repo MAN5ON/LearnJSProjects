@@ -1,7 +1,7 @@
 import './App.css';
-import { HexColors } from './projects/hex-colors';
+//import { HexColors } from './projects/hex-colors';
 import { PicGallery } from './projects/pic-gallery';
-import { RandomQuotes } from './projects/random-quotes';
+// import { RandomQuotes } from './projects/random-quotes';
 
 function App() {
   return (
