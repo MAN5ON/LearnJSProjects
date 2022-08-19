@@ -20,8 +20,6 @@ button:active {
     background-color: rgb(150, 150, 150);
 }
 
-input {}
-
 .calculator {
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +44,20 @@ input {}
     border-style: none;
     border-radius: 10px;
 
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 310px;
+}
+
+.operands {
+    width: 231px;
+}
+
+.operators {
+    width: 78px;
 }
 
 .equal {
