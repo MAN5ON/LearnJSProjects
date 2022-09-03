@@ -3,7 +3,7 @@ import './App.css';
 // import { RandomQuotes } from './projects/random-quotes2';
 // import { PicGallery } from './projects/pic-gallery3';
 //import { Calculator } from './projects/calculator4';
-import { RightCalculator } from './projects/calculator-right5';
+import { Calculator2 } from './projects/calculator-right5';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <RandomQuotes />
       <PicGallery />
       <Calculator /> */}
-      <RightCalculator />
+      <Calculator2 />
     </div>
   );
 }
