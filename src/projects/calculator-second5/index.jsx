@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useState } from "react";
 import { BTN_ACTIONS, btns } from './state'
 import s from './calc2.module.css'
 
