@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.appWrapper {
+    width: 400px;
+    height: 700px;
+    overflow: hidden;
+}
